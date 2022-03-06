@@ -9,4 +9,4 @@ test:
 	python -m pytest -vv --cov=hello chapter1/test_hello.py
 
 format:
-	black *.py
+	black chapter1/*.py
